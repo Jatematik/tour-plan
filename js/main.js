@@ -7,5 +7,9 @@ var mySwiper = new Swiper(".swiper-container", {
     nextEl: ".slider-button--next",
     prevEl: ".slider-button--prev",
   },
-  effect: "cube",
+  effect: "coverflow",
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
 });
