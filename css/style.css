@@ -1581,6 +1581,7 @@ img {
   }
   .navbar__search {
     margin-left: auto;
+    width: 245px;
   }
   .navbar-menu {
     padding-top: 22px;
