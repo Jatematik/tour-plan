@@ -829,6 +829,17 @@ img {
   grid-gap: 30px;
 }
 
+.packages-title {
+  margin: 0 0 65px 0;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .packages-open {
   grid-column: span 4;
   display: -webkit-box;
