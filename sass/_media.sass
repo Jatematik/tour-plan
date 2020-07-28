@@ -9,6 +9,11 @@
                 height: 100%
                 width: 100%
                 object-fit: cover
+    .packages
+        &-open
+            width: 630px
+            &__image
+                min-width: 265px
     .card
         width: 230px
         height: 230px
@@ -48,6 +53,14 @@
             flex-direction: row
         &-slider
             width: 100%
+    .packages
+        &-open
+            grid-column: span 6
+            width: 100%
+            &__image
+                min-width: 50%
+        &-block
+            grid-column: span 3
     .booking
         width: 340px
     .map 
@@ -177,6 +190,13 @@
             min-height: 450px
         &-slider
             height: 350px
+    .packages
+        &-open
+            min-height: 600px
+        &__button
+            min-width: 100px
+            &-open
+                min-width: 100px
     .booking
         width: 100%
     .map
@@ -230,6 +250,20 @@
             margin-bottom: 20px
         &-slider
             height: 250px
+    .packages
+        &-open
+            min-height: 500px
+            flex-direction: column
+            &__image
+                height: 250px
+            &__info
+                padding-top: 30px
+        &__paragraph
+            display: none
+        &-block
+            grid-column: span 6
+        &__image
+            width: 100%
     .newsletter
         padding: 76px 0 83px 0
         &-title
