@@ -52,8 +52,6 @@ $(document).ready(function () {
     event.preventDefault();
     var modalOverlay = $(".modal__overlay");
     var modalDialog = $(".modal__dialog");
-    modalOverlay.removeClass("modal__overlay--visible");
-    modalDialog.removeClass("modal__dialog--visible");
 
     $(document).keyup(function (event) {
       if (event.which == "27") {
@@ -61,5 +59,8 @@ $(document).ready(function () {
         $(modalDialog).removeClass("modal__dialog--visible");
       }
     });
+
+    modalOverlay.removeClass("modal__overlay--visible");
+    modalDialog.removeClass("modal__dialog--visible");
   }
 });
