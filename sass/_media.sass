@@ -28,6 +28,9 @@
 @media (max-width: 992px)
     .container, .newsletter-wrapper
         max-width: 700px
+    .newsletter
+        padding-top: 57px
+        padding-bottom: 70px
     .logo
         width: 132px
     .navbar
@@ -72,6 +75,8 @@
             &__item
                 max-width: 580px
     .activities
+        padding-top: 20px
+        padding-bottom: 55px
         &-wrapper
             flex-wrap: wrap
         &__card
@@ -85,10 +90,12 @@
                 flex-basis: 49%
         &-wrapper
             grid-template-columns: repeat(6, 1fr)
-            grid-row-gap: 40px
+            grid-row-gap: 35px
         &__logo
-            grid-row: 1 / 2
-            grid-column: span 2
+            &-link
+                grid-row: 1 / 2
+                grid-column: span 2
+                width: 100px
         &__social
             &-network
                 grid-row: 1 / 2
@@ -108,6 +115,8 @@
             &-form
                 grid-row: 4
                 grid-column: span 5
+        &__disclaimer
+            margin-top: 59px
 @media (max-width: 768px)
     body
         padding-top: 78px
@@ -250,10 +259,18 @@
     .logo
         width: 99px
     .hotel
+        padding-top: 3px
+        padding-bottom: 40px
+        &-right
+            min-height: 400px
         &__slider
             margin-bottom: 20px
+        &-info
+            padding-bottom: 37px
         &-slider
-            height: 250px
+            height: 180px
+    .map
+        height: 172px
     .packages
         &-open
             min-height: 500px
@@ -269,7 +286,7 @@
         &__image
             width: 100%
     .newsletter
-        padding: 76px 0 83px 0
+        padding: 67px 0 83px 0
         &-title
             font-size: 20px
             line-height: 25px
@@ -285,6 +302,12 @@
             font-size: 18px
             line-height: 23px
             margin-bottom: 42px
+    .activities
+        padding-bottom: 47px
+        &__title
+            font-size: 18px
+            line-height: 23px
+            margin-bottom: 31px
     .card
         width: 100%
     .footer
@@ -292,8 +315,9 @@
         &-wrapper
             grid-template-columns: 1fr 
         &__logo
-            grid-row: 1
-            grid-column: 1
+            &-link
+                grid-row: 1
+                grid-column: 1
         &__social
             &-network
                 grid-row: 2
